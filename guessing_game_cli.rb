@@ -8,5 +8,6 @@ def run_guessing_game
       puts "Sorry! The computer guessed #{random_num}."
       return "Goodbye!"
     else
+      return "Goodbye!"
     end
 end
