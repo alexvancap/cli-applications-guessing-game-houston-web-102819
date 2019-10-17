@@ -1,6 +1,6 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
-  comp_num = rand(1..6).to_s
+  comp_num = rand(6) + 1
   user_input = gets.chomp
 
     if user_input == comp_num
